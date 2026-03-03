@@ -5,7 +5,6 @@ import { defineConfig } from "vite";
 
 export default defineConfig(() => {
   return {
-    // GitHub Pages for https://arnab1811.github.io/GenAI-Governance/
     base: "/GenAI-Governance/",
     plugins: [react(), tailwindcss()],
     resolve: {
